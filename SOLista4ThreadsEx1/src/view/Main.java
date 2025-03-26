@@ -6,9 +6,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		ThreadController thread = new ThreadController();
+		for (int i = 0; i <= 4; i++) {
+			ThreadController thread = new ThreadController();
+			thread.start();
 
-		thread.Thread();
+		}
 
 	}
 
